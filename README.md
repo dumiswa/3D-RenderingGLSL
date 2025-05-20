@@ -1,16 +1,10 @@
-# 🌐 OpenGL Rendering Projects – Assignments 02, 03 & 04 (3D Rendering)
+# 🌐 OpenGL Rendering Projects (3D Rendering)
 
-This repository contains three university assignments from the *3D Rendering* course, built using C++ and modern OpenGL within the MGE (Micro Game Engine) framework. Each assignment explores a different rendering topic: checkerboard pattern generation, lighting with the ADS model, and terrain rendering using heightmaps and splat maps.
+This repository contains three university assignments from the *3D Rendering* course, built using C++ and modern OpenGL within the MGE (Micro Game Engine) framework. Each assignment explores a different rendering topic: lighting with the ADS model, and terrain rendering using heightmaps and splat maps.
 
 ---
 
 ## 📦 Assignments Overview
-
-### 🟥 Assignment 02 – Procedural Checkerboard
-- ✅ Converted initial triangle to a full-screen quad.
-- ✅ Implemented a **procedural checkerboard** pattern in the fragment shader.
-- ✅ UV-based color alternation using `mod()` and `floor()`.
-- ✅ Configurable row/column density via uniforms.
 
 ### 💡 Assignment 03 – ADS Lighting Model
 - ✅ Implemented **Ambient**, **Diffuse**, and **Specular** lighting using the Phong model.
@@ -67,8 +61,6 @@ This repository contains three university assignments from the *3D Rendering* co
 
 ## 🎨 Shader Uniforms (Highlights)
 
-- `u_time` – For time-based animation (Assignment 2)
-- `u_columns`, `u_rows` – Checkerboard density (Assignment 2)
 - `u_lightDir`, `u_lightColor`, `u_viewPos` – Lighting parameters (Assignment 3)
 - `u_diffuseMap`, `u_specularMap`, `u_shininess` – Material uniforms (Assignment 3)
 - `u_heightMap`, `u_splatMap`, `u_texture1..4` – Terrain shaders (Assignment 4)
